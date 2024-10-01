@@ -10,13 +10,11 @@ const Header = ({ title, subtitle }) => {
   );
 };
 
-// Define default props
 Header.defaultProps = {
   title: 'My Application',
   subtitle: '',
 };
 
-// Define prop types
 Header.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,

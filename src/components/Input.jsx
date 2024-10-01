@@ -16,7 +16,6 @@ const Input = ({ label, placeholder, value, onChange, type }) => {
   );
 };
 
-// Define default props
 Input.defaultProps = {
   type: 'text',
   label: '',
@@ -25,7 +24,6 @@ Input.defaultProps = {
   onChange: () => {},
 };
 
-// Define prop types
 Input.propTypes = {
   type: PropTypes.oneOf(['text', 'password', 'email']),
   label: PropTypes.string,

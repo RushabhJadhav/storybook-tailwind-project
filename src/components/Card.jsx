@@ -14,7 +14,6 @@ const Card = ({ title, content, image, footer }) => {
   );
 };
 
-// Define default props
 Card.defaultProps = {
   title: 'Card Title',
   content: 'This is some card content.',
@@ -22,7 +21,6 @@ Card.defaultProps = {
   footer: '',
 };
 
-// Define prop types
 Card.propTypes = {
   title: PropTypes.string,
   content: PropTypes.string,
